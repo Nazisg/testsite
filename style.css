@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    padding: 30px 0;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+header a{
+    color: white;
+}
+header .logo{
+    font-size: 20px;
+    position: absolute;
+    right: 100px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.container::before{
+    content: '';
+     width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.4;
+    z-index: 2;
+}
+header ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+     position: absolute;
+    left: 60px; 
+    
+}
+header li{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+header li:hover{
+    border-bottom: 2px solid white;
+}
+.w{
+    font-size:25px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: 90px;
+    top: 220px;
+}
+.e{
+    font-size:90px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 90px;
+    top:270px
+    
+}
+.box1{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+}
+.box2{
+    width: 100%;
+    height: 1450px;
+    background-color: #EAEAEA;
+    
+}
+.s{
+font-size: 20px;
+margin-bottom: 10px;
+
+}
+.f{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.texts{
+    text-align: center;
+    padding: 50px 0px;
+}
+.images h2{
+font-size: 20px;
+padding: 30px 60px;
+height: 40px;
+width: 145px;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 170px;
+}
+.txt{
+    font-size: 19px;
+    color: rgba(39, 38, 38, 0.767);
+    padding: 10px 300px;
+
+}
+.box3m{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 85%;
+padding: 30px 95px;
+}
+.mbox{
+width: 350px;
+height: 550px;
+background-color: white;
+position: relative;
+}
+.txts h3{
+    font-size: 25px;
+  text-align: left;
+}
+.txts{
+ padding: 20px 30px;
+ color: rgba(41, 41, 41, 0.863);
+}
+.price{
+   /* display: flex; */
+   /* text-align: right; */
+   float:right !important;
+   margin: 20px 0px;
+   /* position: relative; */
+}
+.num{
+    font-size: 40px;
+}
+.price sup{
+    font-size: 16px;
+    /* position: absolute;
+    top: 5px;
+    right: 100px; */
+    vertical-align: 1em;
+}
+.ul{
+    /* display: block; */
+    padding-top: 80px;
+}
+.ul li{
+   font-size: 18px;
+   padding-top:10px
+}
+.bg{
+    width: 100%;
+    height: 550px;
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg::before{
+    content: '';
+     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 0;
+}
+.bg span{
+    color: white;
+    font-style: inherit;
+    font-size: 70px;
+    z-index: 99;
+     padding: 30px 180px; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.fe{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box5{
+    width: 1005;
+    height: 700px;
+    background-color: #EAEAEA;
+}
+.tbox{
+    width: 350px;
+    height: 470px;
+    background-color: white;
+    position: relative;
+    }
+    .tbox p{
+    font-size: 17px;
+    color: rgb(80, 79, 79);
+    padding-top: 70px;
+    padding: 0px 30px;
+    line-height: 1.8;
+    text-align: left;
+}
+.tbox img{
+    padding: 10px 10px;
+    
+}
+.footer {
+     width: 100%;
+     height: 210px;
+    background: black;
+    
+}
+.footer p{
+    font-size: 20px;
+    color: white;
+  
+}
+.ppp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:80px 100px;
+}
+.p1{
+    margin: 0px 30px;
+    width: 40%;
+    text-align:center;
+}
